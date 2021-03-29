@@ -1,0 +1,81 @@
+    h1{
+        color: rgb(0, 0, 0);
+        border: rgb(1,1,1) solid;
+        margin-left: 200px;
+        padding: 25px
+    }
+  
+  .header{
+      background-color: rgb(105, 102, 102);
+        display:flex;
+        justify-content: space-between;
+  }
+
+  .game{
+
+    display:flex;
+    justify-content: space-evenly; flex-wrap: wrap
+    
+  }
+
+  .menu *{
+
+    padding: 30px
+   
+    
+  }
+  
+  .menu a:link {
+    background-color: rgb(95, 95, 95);
+    text-decoration: none;
+  }
+  
+  .menu a:visited {
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    background-color: green;
+    text-decoration: underline;
+  }
+  
+  .menu a:active {
+    background-color: yellows;
+    text-decoration: underline;
+  }
+
+  .icons{
+
+    display:flex;
+    justify-content: flex-end;
+  }
+  
+  body{
+
+    background-color: #000000
+  }
+
+  .trex{
+
+    position: relative 
+  }
+
+  .trex p{
+
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translte(-50%,-50%);
+    opacity:0;
+  }
+  
+  .trex:hover p{
+    opacity:1;
+  
+}
+
+.trex:hover img{
+
+  opacity: 0.25
+}
